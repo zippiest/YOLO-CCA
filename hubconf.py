@@ -17,7 +17,7 @@ from utils.torch_utils import select_device
 dependencies = ['torch', 'yaml']
 check_requirements(Path(__file__).parent / 'requirements.txt', exclude=('pycocotools', 'thop'))
 set_logging()
-
+ 
 
 def create(name, pretrained, channels, classes, autoshape):
     """Creates a specified model
