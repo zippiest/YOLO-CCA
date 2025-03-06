@@ -699,7 +699,7 @@ if __name__ == '__main__':
             # Write mutation results
             print_mutation(hyp.copy(), results, yaml_file, opt.bucket)
 
-        # Plot results
+        # Plot results#
         plot_evolution(yaml_file)
         print(f'Hyperparameter evolution complete. Best results saved as: {yaml_file}\n'
               f'Command to train a new model with these hyperparameters: $ python train.py --hyp {yaml_file}')
