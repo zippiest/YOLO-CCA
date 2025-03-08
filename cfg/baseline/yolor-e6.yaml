@@ -2,7 +2,7 @@
 nc: 80  # number of classes
 depth_multiple: 1.0  # expand model depth
 width_multiple: 1.25  # expand layer channels
-
+ 
 # anchors
 anchors:
   - [ 19,27,  44,40,  38,94 ]  # P3/8
