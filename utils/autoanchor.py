@@ -7,7 +7,7 @@ from scipy.cluster.vq import kmeans
 from tqdm import tqdm
 
 from utils.general import colorstr
-
+ 
 
 def check_anchor_order(m):
     # Check anchor order against stride order for YOLO Detect() module m, and correct if necessary
