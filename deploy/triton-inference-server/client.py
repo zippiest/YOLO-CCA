@@ -11,7 +11,7 @@ from tritonclient.utils import InferenceServerException
 from processing import preprocess, postprocess
 from render import render_box, render_filled_box, get_text_size, render_text, RAND_COLORS
 from labels import COCOLabels
-
+ 
 INPUT_NAMES = ["images"]
 OUTPUT_NAMES = ["num_dets", "det_boxes", "det_scores", "det_classes"]
 
