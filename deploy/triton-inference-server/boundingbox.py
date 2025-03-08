@@ -1,4 +1,4 @@
-class BoundingBox:
+class BoundingBox: 
     def __init__(self, classID, confidence, x1, x2, y1, y2, image_width, image_height):
         self.classID = classID
         self.confidence = confidence
